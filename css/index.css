@@ -1,0 +1,48 @@
+body{
+    direction: rtl;
+    font-family: 'Medium' sans-serif;
+}
+/* ************************* fonts ************************* */
+@font-face {
+    font-family: 'Bold';
+    src: url('../fonts/VazirmatnRD-Bold.woff2') format('woff2'),
+        url('../fonts/VazirmatnRD-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Medium';
+    src: url('../fonts/VazirmatnRD-Medium.woff2') format('woff2'),
+        url('../fonts/VazirmatnRD-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Light';
+    src: url('../fonts/VazirmatnRD-Light.woff2') format('woff2'),
+        url('../fonts/VazirmatnRD-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+/* ************************* responsive ************************* */
+@media all and (max-width:575px){
+
+}
+@media all and (min-width:576px) and (max-width:767px){
+
+}
+@media all and (min-width:768px) and (max-width:991px){
+
+}
+@media all and (min-width:992px) and (max-width:1199px){
+
+}
+@media all and (min-width:1200px) and (max-width:1399px){
+
+}
+@media all and (min-width:1400px){
+
+}
