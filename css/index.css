@@ -30,20 +30,22 @@ body{
     font-display: swap;
 }
 /* ************************* responsive ************************* */
-@media all and (max-width:767px){
+@media all and (max-width:575px){
+/* *************************  Gallery ************************ */
     h2{
         text-align: center;
     }
     .gallery-box h1{
+        font-size: 6.5vw;
         text-align: center;
-        margin: 5px;
+        margin: 2%;
         font-family: 'Bold', sans-serif;
     }
     .gallery{
         display: flex;
         position: relative;
         flex-direction: column;
-        margin: 1% auto;
+        margin: 0.5% auto;
     }
     .image-box{       
         margin: 0 1%; 
@@ -53,33 +55,111 @@ body{
     .image-box img{
         display: block;
         width: 100%;
-        margin-bottom: 1%;
+        height: 100%;
+        margin-bottom: 0.5%;
         border-radius: 15px;
+        filter:brightness(40%);
         transition: all 150ms linear 0s;
     }
-    .image-box:hover{
-        margin: 1% auto 1% auto;
-        transform: scale(1.02) ;
-    }
     .decs{
-        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
         justify-content: center;
         position: absolute;
         top: 0;
-        left: 0;
         color: #ffffff;
-        background: rgba(0, 0, 0, 0.5);
-        opacity: 0;
+        text-decoration: none;
         border-radius: 15px;
-        transition: all 150ms linear 0s;
+        transition: all 300ms linear 0s; 
+    }
+    .decs a{
+        transition: all 300ms linear 0s;
     }
     .decs:hover{
-        filter: brightness(100%);
-        opacity: 1;
+        color: #ffffff;
+        text-shadow: 0px 0px 25px rgba(196, 196, 196, 0.5);
+    }
+    .decs h2{
+        font-family: 'bold';
+        font-size: 6.5vw;
+    }
+    .decs p{
+        font-family: 'Medium';
+        margin-top: 2%;
+        text-align: center;
+        padding: 0 15% ;
+        font-size: 3.8vw;
+    }
+/* *************************  about paragraph ************************ */
+    .about-paragraph-image img{
+       width: 100%;
+       margin: 2% auto;
+    }
+    .about-paragraph-text{
+        padding: 0 8%;
+    }
+    .about-paragraph-text h2{
+        font-family: 'bold';
+        font-size: 6vw;
+        text-align: right;
+        margin-bottom: 3%;
+    }
+    .about-paragraph-text p{
+        font-family: 'Medium';
+        text-align: justify;
+        font-size: 3.5vw;
+    }
+}
+@media all and (min-width:576px) and (max-width:767px){
+/* *************************  Gallery ************************ */
+    h2{
+        text-align: center;
+    }
+    .gallery-box h1{
+        font-size: 6vw;
+        text-align: center;
+        margin: 2%;
+        font-family: 'Bold', sans-serif;
+    }
+    .gallery{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        margin: 0.5% auto;
+    }
+    .image-box{       
+        margin: 0 1%; 
+        filter: brightness(90%);
+        transition: all 150ms linear 0s;
+    }
+    .image-box img{
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 1%;
+        border-radius: 15px;
+        filter:brightness(60%);
+        transition: all 150ms linear 0s;
+    }
+    .decs{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 15px;
+        transition: all 150ms linear 0s; 
+    }
+    .decs a{
+        transition: all 300ms linear 0s;
+    }
+    .decs:hover{
+        color: #ffffff;
+        text-shadow: 0px 0px 25px rgba(196, 196, 196, 0.5);
     }
     .decs h2{
         font-family: 'bold';
@@ -90,11 +170,90 @@ body{
         margin-top: 2%;
         text-align: center;
         padding: 0 15% ;
-        font-size: 2.5vw;
+        font-size: 3.5vw;
+    }
+    /* *************************  about paragraph ************************ */
+    .about-paragraph-image img{
+        width: 100%;
+        margin: 2% auto;
+     }
+     .about-paragraph-text{
+         padding: 0 3%;
+     }
+     .about-paragraph-text h2{
+         font-family: 'bold';
+         font-size: 4vw;
+         text-align: right;
+         margin-bottom: 3%;
+     }
+     .about-paragraph-text p{
+         font-family: 'Medium';
+         text-align: justify;
+         font-size: 2.8vw;
+     }
+}
+@media all and (min-width:768px) and (max-width:991px){
+/* *************************  Gallery ************************ */
+    h2{
+        text-align: center;
+    }
+    .gallery-box h1{
+        font-size: 3.8vw;
+        text-align: center;
+        margin: 1%;
+        font-family: 'Bold', sans-serif;
+    }
+    .gallery{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        margin: 1% auto;
+    }
+    .image-box{       
+        margin: 0 1%; 
+        transition: all 150ms linear 0s;
+    }
+    .image-box img{
+        display: block;
+        width: 100%;
+        margin-bottom: 1%;
+        border-radius: 15px;
+        transition: all 150ms linear 0s;
+    }
+    .decs{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 0;
+        color: #ffffff;
+        filter:brightness(60%);
+        text-decoration: none;
+        border-radius: 15px;
+        transition: all 150ms linear 0s; 
+    }
+    .decs:hover{
+        color: #ffffff;
+        text-shadow: 0px 0px 25px rgba(196, 196, 196, 0.5);
+    }
+    .decs a{
+        transition: all 300ms linear 0s;
+    }
+    .decs h2{
+        font-family: 'bold';
+        font-size: 2.8vw;
+    }
+    .decs p{
+        font-family: 'Medium';
+        margin-top: 2%;
+        text-align: center;
+        padding: 0 5% ;
+        font-size: 1.8vw;
     }
 }
-@media all and (min-width:768px) and (max-width:1199px){
-
+@media all and (min-width:992px) and (max-width:1199px){
+    
 }
 @media all and (min-width:1200px){
 
