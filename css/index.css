@@ -6,11 +6,28 @@ body{
     font-family: 'Medium';
 }
 ::selection {
-    color: rgb(255, 255, 255);
-    background: rgb(0, 0, 0);
+    color: #ffffff;
+    background: #6495ed;
 }
 .custom-link{
     text-decoration: none;
+}
+hr{
+    width: 60px;
+    height: 2px;
+}
+a{
+    text-decoration: none !important;
+    transition: all 300ms ease 0s;
+}
+a:hover{
+    color: #6495ed !important;
+}
+.footer-icon{
+    font-size: 40px;
+}
+.Zire-Navbar{
+    text-align: right;
 }
 /* ************************* fonts ************************* */
 @font-face {
@@ -39,37 +56,37 @@ body{
 }
 /* ************************* responsive ************************* */
 @media all and (max-width:575px) {
-    .qa-margin{
-        margin: 10px 10px;
+    .custom-margin{
+        margin: 10px 6px;
     }
 }
 
 @media all and (min-width:576px) and (max-width:767px) {
-    .qa-margin{
-        margin: 10px 10px;
+    .custom-margin{
+        margin: 10px 6px;
     }
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
-    .qa-margin{
-        margin: 10px 10px;
+    .custom-margin{
+        margin: 10px 6px;
     }
 }
 
 @media all and (min-width:992px) and (max-width:1199px) {
-    .qa-margin{
-        margin: 10px 10px;
+    .custom-margin{
+        margin: 10px 6px;
     }
 }
 
 @media all and (min-width:1200px) and (max-width:1399px) {
-    body{
-        margin: 0px 100px;
+    .custom-margin{
+        margin: 0px 30px;
     }
 }
 
 @media all and (min-width:1400px) {
-    body{
-        margin: 0px 100px;
+    .custom-margin{
+        margin: 0px 120px;
     }
 }
