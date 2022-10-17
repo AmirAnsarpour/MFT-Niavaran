@@ -32,8 +32,8 @@
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="رمز عبور" minlength="7">
             </div>
             <button type="submit" href="#" class="text-light bg-primary px-4 py-2 my-2 mx-1 rounded-4 border border-secondary border-2">ورود</button>
-            <p>رمز ورود ندارید؟ <a type="button" class="custom-link" data-bs-toggle="modal" data-bs-target="#exampleModal1">رمز عبور جدید</a></p>
-            <p>حساب کاربری ندارید؟ <a type="button" class="custom-link" data-bs-toggle="modal" data-bs-target="#exampleModal2">ساخت حساب کاربری</a></p>
+            <p>رمز ورود ندارید؟ <a type="button" class="custom-link custom-link-hover" data-bs-toggle="modal" data-bs-target="#exampleModal1">رمز عبور جدید</a></p>
+            <p>حساب کاربری ندارید؟ <a type="button" class="custom-link custom-link-hover" data-bs-toggle="modal" data-bs-target="#exampleModal2">ساخت حساب کاربری</a></p>
         </form>
     </div>
 </div>
@@ -69,7 +69,7 @@
           <input type="text" class="form-control mb-2" id="NameNewUser" checked>
           <label for="exampleInputEmail3" class="form-label">ایمیل</label>
           <input type="email" class="form-control mb-2" id="exampleInputEmail3" aria-describedby="emailHelp" checked>
-          <label for="MelliCode" class="form-lable">کد ملی خود را وارد کنید.</label>
+          <label for="MelliCode" class="form-lable">کد ملی</label>
           <input type="text" class="form-control mb-2" id="MelliCode" checked>
           <label for="exampleInputPassword2" class="form-label">رمز عبور</label>
           <input type="password" class="form-control mb-2" id="exampleInputPassword2" minlength="7" checked>
@@ -109,29 +109,29 @@
     <div class="col">
       <nav class="navbar navbar-expand-md mt-2 custom-margin">
           <div class="container-fluid">
-              <a class="navbar-brand" href="#">مجتمع فنی تهران</a>
+              <a class="navbar-brand custom-link-hover" href="#">مجتمع فنی تهران</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                  <a class="nav-link link-hover-navbar" href="#">دپارتمان</a>
+                  <a class="nav-link link-hover-navbar custom-link-hover" href="#">دپارتمان</a>
                 </li>
                   <li class="nav-item">
-                  <a class="nav-link link-hover-navbar" href="#">بلاگ</a>
+                  <a class="nav-link link-hover-navbar custom-link-hover" href="#">بلاگ</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link link-hover-navbar" href="#">همکاری با ما</a>
+                  <a class="nav-link link-hover-navbar custom-link-hover" href="#">همکاری با ما</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link link-hover-navbar" href="#">استخدام</a>
+                  <a class="nav-link link-hover-navbar custom-link-hover" href="#">استخدام</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link link-hover-navbar" href="#">تماس با ما</a>
+                  <a class="nav-link link-hover-navbar custom-link-hover" href="#">تماس با ما</a>
                   </li>
                   <li class="nav-item">
-                  <a class="nav-link link-hover-navbar text-secondary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><strong>ورود به حساب کاربری</strong></a>
+                  <a class="nav-link link-hover-navbar text-secondary custom-link-hover" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><strong>ورود به حساب کاربری</strong></a>
                   </li>
               </ul>
               </div>
@@ -173,18 +173,68 @@
     </div>
   </div>
 </div>
-<!---------------------- FAQ ---------------------->
+<!---------------------- Card ---------------------->
+<div class="container-fluid">
+  <div class="row mx-xl-5">
+    <div class="col-12 text-center mt-4">
+      <h3>
+        دوره ها
+      </h3>
+    </div>
+    <div class="col-xl-3 col-md-6 my-xl-3 my-2">
+      <div class="card custom-card">
+        <img src="images/Gallery1.jpg" class="card-img-top custom-card-image-hover">
+        <div class="card-body">
+          <h5 class="card-title">نام درس</h5>
+          <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+          <a href="#" class="btn btn-primary">توضیحات بیشتر</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 my-xl-3 my-2">
+      <div class="card custom-card">
+        <img src="images/Gallery2.jpg" class="card-img-top custom-card-image-hover">
+        <div class="card-body">
+          <h5 class="card-title">نام درس</h5>
+          <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+          <a href="#" class="btn btn-primary">توضیحات بیشتر</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 my-xl-3 my-2">
+      <div class="card custom-card">
+        <img src="images/Gallery3.jpg" class="card-img-top custom-card-image-hover">
+        <div class="card-body">
+          <h5 class="card-title">نام درس</h5>
+          <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+          <a href="#" class="btn btn-primary">توضیحات بیشتر</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 my-xl-3 my-2">
+      <div class="card custom-card">
+        <img src="images/Gallery4.jpg" class="card-img-top custom-card-image-hover">
+        <div class="card-body">
+          <h5 class="card-title">نام درس</h5>
+          <p class="card-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
+          <a href="#" class="btn btn-primary">توضیحات بیشتر</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <!---------------------- FAQ ---------------------->
 <div class="container">
   <div class="row">
     <div class="col">
       <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
               سوال پرتکرار 
             </button>
           </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد..
             </div>
@@ -234,16 +284,16 @@
             <h6 class="text-uppercase fw-bold">صفحات</h6>
             <hr class="mb-4 mt-0 d-inline-block mx-auto">
             <p>
-              <a href="#" class="text-dark">صفحه اول</a>
+              <a href="#" class="text-dark custom-link-hover">صفحه اول</a>
             </p>
             <p>
-              <a href="#" class="text-dark">صفحه دوم</a>
+              <a href="#" class="text-dark custom-link-hover">صفحه دوم</a>
             </p>
             <p>
-              <a href="#" class="text-dark">صفحه سوم</a>
+              <a href="#" class="text-dark custom-link-hover">صفحه سوم</a>
             </p>
             <p>
-              <a href="#" class="text-dark">صفحه چهارم</a>
+              <a href="#" class="text-dark custom-link-hover">صفحه چهارم</a>
             </p>
           </div>
 
@@ -251,19 +301,19 @@
             <h6 class="text-uppercase fw-bold">لینک های مرتبط</h6>
             <hr class="mb-4 mt-0 d-inline-block mx-auto">
             <p>
-              <a href="#" class="text-dark"><i class="bi bi-whatsapp footer-icon"></i></a>
+              <a href="#" class="text-dark custom-link-hover"><i class="bi bi-whatsapp footer-icon"></i></a>
             </p>
             <p>
-              <a href="#" class="text-dark"><i class="bi bi-instagram footer-icon"></i></a>
+              <a href="#" class="text-dark custom-link-hover"><i class="bi bi-instagram footer-icon"></i></a>
             </p>
           </div>
 
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <h6 class="text-uppercase fw-bold">اطلاعات تماس</h6>
             <hr class="mb-4 mt-0 d-inline-block mx-auto">
-            <p><i class="fas fa-home mr-3"></i> آدرس: نیاوران حدفاصل سه راه یاسر و پمپ بنزین</p>
-            <p><i class="fas fa-envelope mr-3"></i> تلفن: 02126121107</p>
-            <p><i class="fas fa-phone mr-3"></i> ایمیل: info@mftniavaran.com</p>
+            <p> آدرس: نیاوران حدفاصل سه راه یاسر و پمپ بنزین</p>
+            <p> تلفن: 02126121107</p>
+            <p> ایمیل: info@mftniavaran.com</p>
           </div>
 
         </div>
@@ -272,8 +322,8 @@
   </footer>
 </div>
 <div class="container">
-  <div class="text-center">
-    <a href="https://github.com/AmirAnsarpour" class="text-dark">AmirAnsarpour</a>
+  <div class="text-center mb-4">
+    <a href="https://github.com/AmirAnsarpour" class="text-dark custom-link-hover">AmirAnsarpour@</a>
   </div>
 </div>
 
