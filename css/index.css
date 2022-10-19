@@ -88,8 +88,8 @@ a{
     filter: grayscale(0%);
     box-shadow: 0px 1px 5px transparent;
 }
-.custom-bg{
-    background-color: rgb(249, 249, 249);
+.custom-cursor{
+    cursor: pointer;
 }
 /* ************************* responsive ************************* */
 @media all and (max-width:575px) {
