@@ -150,13 +150,13 @@ a{
     bottom: 0px;
 }
 .custom-teacher{
-    transition: all 400ms ease 0s;
+    transition: all 600ms ease 0s;
 }
 .custom-teacher:hover{
     transform: scale(1.08);
 }
 .custom-teacher img{
-    transition: all 400ms ease 0s;
+    transition: all 600ms ease 0s;
 }
 .custom-teacher:hover img{
     
