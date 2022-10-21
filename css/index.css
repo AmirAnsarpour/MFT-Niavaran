@@ -1,25 +1,9 @@
 /* ************************* fonts ************************* */
 @font-face {
-    font-family: 'Bold';
-    src: url('../fonts/VazirmatnRD-Bold.woff2') format('woff2'),
-        url('../fonts/VazirmatnRD-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
     font-family: 'Medium';
     src: url('../fonts/VazirmatnRD-Medium.woff2') format('woff2'),
         url('../fonts/VazirmatnRD-Medium.woff') format('woff');
     font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Light';
-    src: url('../fonts/VazirmatnRD-Light.woff2') format('woff2'),
-        url('../fonts/VazirmatnRD-Light.woff') format('woff');
-    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
@@ -160,6 +144,24 @@ a{
 .custom-bg-color2{
     background-color: #acbfe2;
 }
+.fixedname{
+    position: fixed;
+    z-index: -10;
+    bottom: 0px;
+}
+.custom-teacher{
+    transition: all 400ms ease 0s;
+}
+.custom-teacher:hover{
+    transform: scale(1.08);
+}
+.custom-teacher img{
+    transition: all 400ms ease 0s;
+}
+.custom-teacher:hover img{
+    
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
 /* ************************* responsive ************************* */
 @media all and (max-width:575px) {
     .custom-margin{
@@ -171,6 +173,7 @@ a{
     .custom-margin{
         margin: 10px 0px;
     }
+    
 }
 
 @media all and (min-width:1200px) and (max-width:1399px) {
@@ -183,4 +186,5 @@ a{
     .custom-margin{
         margin: 0px 120px;
     }
+    
 }
