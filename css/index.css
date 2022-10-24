@@ -167,6 +167,9 @@ a{
     .custom-margin{
         margin: 10px 6px;
     }
+    .custom-carousel{
+        display: none;
+    }
 }
 
 @media all and (min-width:768px) and (max-width:991px) {
